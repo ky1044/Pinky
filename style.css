@@ -1,0 +1,114 @@
+/*
+Theme Name: Pinky
+Author: Ken Yokokawa
+*/
+
+
+body {
+  background-color: #ffd8cb;
+  font-family:sans-serif;
+  text-emphasis-color: white;
+  padding:0px;
+  margin:0px;
+}
+
+h1{
+  font-size: min(150px,25vw);
+  margin:0px;
+  font-family: Times, sans-serif;
+  color:#e17e76;
+}
+
+.t{
+  color:#ffdfda;
+  height:180px;
+}
+.h{
+  color:#fff2f0;
+  height:180px;
+}
+.b{
+  color:#40c2ff;
+}
+
+h2{
+  font-size: min(120px,20vw);
+  margin:0;
+  font-family: Times, sans-serif;
+  color:#e17e76;
+}
+
+h3{
+  font-size: min(80px,8vw);
+  margin:0px;
+  color:#f3a49e;
+  font-family: Times, sans-serif;
+}
+
+.h3a{
+  color:#f3a49e;
+  font-family: Times, sans-serif;
+  text-decoration: none;
+  transition: color 0.5s linear;
+
+}
+.h3a:hover{
+  color:#e17e76;
+  text-decoration: none;
+  /* transition-duration: 0.3s; */
+
+}
+
+h4{
+  font-size: min(50px,7vw);
+  margin:0px;
+  color:#f3a49e;
+  font-family: Times, sans-serif;
+}
+
+h5{
+  color:#e17e76;
+  font-size:min(30px,5vw);
+  margin:0px;
+  font-family: Times, sans-serif;
+}
+
+
+.h5a{
+  color:#e17e76;
+  font-size:min(30px,5vw);
+  margin:0px;
+  font-family: Times, sans-serif;
+
+}
+.h5a:hover{
+  color:#e17e76;
+  text-decoration: none;
+  /* transition-duration: 0.3s; */
+
+}
+
+
+
+.fixed-height-container{
+  height:1020px;
+}
+
+.fix-toc{
+  position: fixed;
+  z-index: -10;
+  top:300px;
+}
+
+.page-header{
+  position: fixed;
+  z-index: -10;
+  top:0;
+}
+
+.general-container{
+  background-color: #ffdfda;
+  margin: 20px min(10vw,200px);
+  min-height:500px;
+  padding:40px;
+}
