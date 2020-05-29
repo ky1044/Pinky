@@ -31,6 +31,18 @@ h1{
   color:#40c2ff;
 }
 
+.ha{
+  color:#f3a49e;
+  font-family: Times, sans-serif;
+  text-decoration: none;
+  transition: color 0.5s linear;
+
+}
+.ha:hover{
+  color:#e17e76;
+  text-decoration: none;
+}
+
 h2{
   font-size: min(120px,20vw);
   margin:0;
@@ -44,6 +56,7 @@ h3{
   color:#f3a49e;
   font-family: Times, sans-serif;
 }
+
 
 .h3a{
   color:#f3a49e;
@@ -88,6 +101,11 @@ h5{
 
 }
 
+.link-cursor{
+  width:200px;
+  height:200px
+  transform: translate(-50%,-50%);
+}
 
 
 .fixed-height-container{

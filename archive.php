@@ -36,7 +36,7 @@
 
 </div>
 
-
+<!-- parralax scroll script -->
 <script>
   window.onscroll = function() {scrollUpdate()};
   var header = document.getElementById("header");
@@ -48,5 +48,7 @@
     
   }
 </script>
+
+
 
 <?php get_footer();?>
